@@ -3,7 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "watch": "npm start -w @mono/root"
+    "watch": "npm start -w",
+    "build": "npm run build -w",
+    "build-core": "npm run build -w @mono/core"
   },
   "workspaces": [
       "./packages/*"
