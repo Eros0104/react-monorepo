@@ -6,9 +6,9 @@ This project is an example of a React Monorepo, using npm workspaces.
 
 First, you will need to install the following tools:
 
-- [Node.js]("https://nodejs.org/en/")
-- [Git]("https://git-scm.com/")
-- A code editor, like [VSCode]("https://code.visualstudio.com/")
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- A code editor, like [VSCode](https://code.visualstudio.com/)
 
 Clone the project:
 
@@ -53,8 +53,8 @@ npm run build -- @mono/home
 
 ## :test_tube: Tech stack
 
-- [React]("https://reactjs.org/")
-- [Create React App]("https://create-react-app.dev/")
-- [TypeScript]("https://www.typescriptlang.org/")
-- [JavaScript]("https://www.javascript.com/")
-- [Rollup]("https://rollupjs.org/")
+- [React](https://reactjs.org/)
+- [Create React App](https://create-react-app.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://www.javascript.com/)
+- [Rollup](https://rollupjs.org/)
