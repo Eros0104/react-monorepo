@@ -1,0 +1,11 @@
+{
+  "name": "@mono/monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "npm start -w @mono/root"
+  },
+  "workspaces": [
+      "./packages/*"
+  ]
+}
