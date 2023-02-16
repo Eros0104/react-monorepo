@@ -1,5 +1,5 @@
 {
-  "name": "@mono/about-us",
+  "name": "@mono/about",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
