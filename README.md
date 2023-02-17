@@ -33,10 +33,10 @@ Choose a project to start:
 
 ```
 # The same command is used to run any project
-npm run watch -- <project-name>
+npm run watch <project-name>
 
 # Starting the home app:
-npm run watch -- @mono/home
+npm run watch @mono/home
 ```
 
 ### Useful commands
@@ -45,10 +45,10 @@ Building the apps:
 
 ```
 # The same command is used to build any project
-npm run build -- <project-name>
+npm run build <project-name>
 
 # Building the home app:
-npm run build -- @mono/home
+npm run build @mono/home
 ```
 
 ## :test_tube: Tech stack
