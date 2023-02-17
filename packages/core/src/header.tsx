@@ -1,11 +1,13 @@
-import React from "react"
+export interface HeaderProps {
+    children: string;
+} 
 
-const Header = ({ text = "" }) => {
+export const Header = ({ children }: HeaderProps) => {
     return (
-        <h1>Shared header library {text}</h1>
+        <header>
+            <h1>
+                Shared header library: {children}
+            </h1>
+        </header>
     )
-}
-
-export {
-    Header
 }
