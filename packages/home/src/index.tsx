@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import { Header } from "@mono/core";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <h1>Home content</h1>
+    <Header>Home</Header>
+    <p>Home content</p>
   </React.StrictMode>
 );
 
