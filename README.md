@@ -17,31 +17,31 @@ Clone the project:
   cd react-monorepo
 ```
 
-Build the core project:
-
-```
-npm run build-core
-```
-
 Install the dependencies:
 
 ```
 npm install
 ```
 
+Build the core project:
+
+```
+npm run build @mono/core
+```
+
 Choose a project to start:
 
 ```
 # The same command is used to run any project
-npm run watch <project-name>
+npm start <project-name>
 
 # Starting the home app:
-npm run watch @mono/home
+npm start @mono/home
 ```
 
 ### Useful commands
 
-Building the apps:
+Building an app:
 
 ```
 # The same command is used to build any project
@@ -49,6 +49,26 @@ npm run build <project-name>
 
 # Building the home app:
 npm run build @mono/home
+```
+
+Installing new packages to a project:
+
+```
+# Installing the package
+npm install <package-name> -w <project-name>
+
+# Example:
+npm install react -w @mono/home
+```
+
+Watching an app:
+
+```
+# The same command is used to run any project
+npm run watch <project-name>
+
+# Watching the home app:
+npm run watch @mono/home
 ```
 
 ## :test_tube: Tech stack
