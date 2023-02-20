@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm start -w",
     "watch": "npm run watch -w",
-    "build": "npm run build -w"
+    "build": "npm run build -w",
+    "build-all": "node scripts/buildAll.js"
   },
   "workspaces": [
       "./packages/*"

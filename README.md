@@ -19,19 +19,19 @@ Clone the project:
 
 Install the dependencies:
 
-```
+```bash
 npm install
 ```
 
 Build the core project:
 
-```
+```bash
 npm run build @mono/core
 ```
 
 Choose a project to start:
 
-```
+```bash
 # The same command is used to run any project
 npm start <project-name>
 
@@ -43,7 +43,7 @@ npm start @mono/home
 
 Building an app:
 
-```
+```bash
 # The same command is used to build any project
 npm run build <project-name>
 
@@ -53,7 +53,7 @@ npm run build @mono/home
 
 Installing new packages to a project:
 
-```
+```bash
 # Installing the package
 npm install <package-name> -w <project-name>
 
@@ -63,12 +63,18 @@ npm install react -w @mono/home
 
 Watching an app:
 
-```
+```bash
 # The same command is used to run any project
 npm run watch <project-name>
 
 # Watching the home app:
 npm run watch @mono/home
+```
+
+Building all apps:
+
+```bash
+npm run build-all
 ```
 
 ## :test_tube: Tech stack
