@@ -12,6 +12,11 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "declarationDir": "./dist"
+    "declarationDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@Styles/*": ["styles/*"],
+      "@Styles": ["styles"]
+    }
   }
 }

@@ -1,1 +1,2 @@
-export * from "./header"
+import "./styles/global.scss";
+export * from "./components";

@@ -3,12 +3,18 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "start": "npm start -w",
-    "watch": "npm run watch -w",
-    "build": "npm run build -w",
-    "build-all": "node scripts/buildAll.js"
+    "start-home": "concurrently \"npm run watch -w @mono/core\" \"npm start -w @mono/home\"",
+    "build-home": "npm run build-core && npm run build -w @mono/home",
+    "start-about": "concurrently \"npm run watch -w @mono/core\" \"npm start -w @mono/about\"",
+    "build-about": "npm run build-core && npm run build -w @mono/about",
+    "build-core": "npm run build -w @mono/core",
+    "build-all": "node scripts/buildAll.js",
+    "clean-project": "rimraf --glob ./**/node_modules ./**/build/ ./**/dist/"
   },
   "workspaces": [
-      "./packages/*"
-  ]
+    "./packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
 }

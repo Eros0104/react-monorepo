@@ -1,0 +1,8 @@
+@import "src/styles/variables";
+
+.header {
+  background-color: $primary;
+  color: $primaryText;
+  width: 100%;
+  padding: 1rem;
+}
